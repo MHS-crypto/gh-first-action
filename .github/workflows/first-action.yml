@@ -7,4 +7,9 @@ jobs:
       - name: Print greeting
         run: echo "Hello World!"
       - name: Print Good Bye
-        run: echo "Good Bye!"
+        run: echo "Good Bye!
+      - name: multiline commands
+        run: |
+            echo "First Output"
+            echo "Second Output"
+        
